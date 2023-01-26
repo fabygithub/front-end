@@ -2,9 +2,8 @@
 angular backend
 
 https://www.freelancer.cl/projects/angular-js/Quick-hand-for-angular-task/details
-
+BACKEND API REST EN SPRING BOOT Y FRONTEND CON ANGULAR - TUTORIAL COMPLETO DESDE CERO
 https://www.youtube.com/results?search_query=angular+backend
-https://www.youtube.com/watch?v=-e_3jvGhlHo&ab_channel=SandraPatriciaCanoMazuera
 
 Spring tool suite 4
 
@@ -14,17 +13,51 @@ new spring starter project
 
 Name : TUTORIAL
 Group : xyz.yoandroide.tutorial
+package : xyz.yoandroide.tutorial
 
 dependencies
 web
 spring web
 
-project
+delete web
+next
+finish
+
+
+TUTORIAL boot
 run as 
-Spring devtools client
+Spring boot app
+
+si faltaran dependencias
+
+does not have spring-boot-devtools on its classpath
+<dependencies>
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+    <scope>runtime</scope>
+</dependency>
+
+
+Tomcat started on port(s): 8080 (http)
+localhost:8080
+
+Whitelabel Error Page
+This application has no explicit mapping for /error, so you are seeing this as a fallback.
+
+Thu Jan 26 16:57:54 CLST 2023
+There was an unexpected error (type=Not Found, status=404).
+No message available
+
+
+
 
 src/main/java
 new
 package
 xyz.yoandroide.tutorial
+
+
 
