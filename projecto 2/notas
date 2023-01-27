@@ -95,6 +95,47 @@ no se deben repetir seria
     "path": "/nombre"
 }
 
+cors with spring
+baeldung
+
+xyz.yoandroide.tutorial
+new class
+WebConfig
+
+package xyz.yoandroide.tutorial;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+@EnableWebMvc
+public class WebConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**");
+    }
+}
+
+stop
+restart
+
+en vez de  @Controller cambiar a  @RestController
+guardar
+run as spring boot app
+
+
+
+
+
+
+
+
+
+
+
 
 
 
