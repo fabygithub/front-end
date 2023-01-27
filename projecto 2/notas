@@ -127,6 +127,40 @@ guardar
 run as spring boot app
 
 
+postman
+
+http://localhost:8080/nombre   send
+Tutorial Yo Androide
+
+http://localhost:8080/descripcion
+Tutorial Yo Androide sobre API REST con Spring Boot y Angular
+
+terminal
+code .
+
+ng new TutorialYoAndroide
+Yes
+css
+
+open folder in visual studio code
+TutorialYoAndroide
+ng serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
