@@ -51,13 +51,48 @@ Thu Jan 26 16:57:54 CLST 2023
 There was an unexpected error (type=Not Found, status=404).
 No message available
 
+tutorial boot
+src/main/java
+xyz.yoandroide.tutorial
+TutorialApplication.java
 
-
+20-01-2023
+open eclipse
+launch workspace
+Java EE
 
 src/main/java
 new
 package
-xyz.yoandroide.tutorial
+xyz.yoandroide.tutorial.rest
+new class
+YoAndroidREST
+@Controller
+import Controller
+@GetMapping
+import GetMapping
+
+run springboot app
+
+postman
+https://www.postman.com/downloads/?utm_source=postman-home
+send a request
+button +
+http://localhost:8080/nombre
+
+error
+/nombre
+/nombre
+no se deben repetir seria
+/nombre
+/descripcion
+
+
+
+
+
+
+
 
 
 
